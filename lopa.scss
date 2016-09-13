@@ -1,0 +1,116 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+body {
+	font-family: 'DIN Alternate', 'DIN', sans-serif;
+	font-size: 22px;
+}
+
+.header {
+	background: #E90052;
+	padding: 30px 40px;
+	h1 {
+		color: #FFF;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+}
+
+.lopa-table {
+	width: 100%;
+}
+
+tr:nth-child(1) {
+	td {
+		background: #ffd18c;
+	}
+}
+
+tr:nth-child(2) {
+	td {
+		background: #dedede;
+	}
+}
+
+tr:nth-child(3) {
+	td {
+		background: #d2bb99;
+	}
+}
+
+th {
+	background: #FFF;
+	font-weight: bold;
+	font-size: 48px;
+	padding: 50px 30px;
+	text-align: center;
+	&:nth-child(1) { width: 10%; }
+	&:nth-child(2) { text-align: left; }
+}
+
+td {
+	padding: 15px 30px;
+	text-align: center;
+	vertical-align: middle;
+	&:nth-child(1) { width: 10%; }
+	&:nth-child(2) { text-align: left; }
+	span {
+		font-size: 16px;
+		color: #666;
+		text-transform: uppercase;
+	}
+}
+
+input {
+	font-family: 'DIN Alternate', 'DIN', sans-serif;
+	font-size: 22px;
+	width: 100%;
+	outline: none;
+	padding: 0;
+}
+
+.regular {
+	background: transparent;
+	border: none;
+	text-align: center;
+}
+
+.clubname {
+	background: transparent;
+	border: none;
+	font-size: 28px;
+}
+
+.playername {
+	background: transparent;
+	border: none;
+	color: #666;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+div.teamname {
+	display: block;
+}
+
+.teamname {
+	background: transparent;
+	border: none;
+	color: #666;
+	font-size: 12px;
+	display: inline;
+	width: auto;
+	margin: 0;
+	line-height: 0;
+	padding: 0;
+}
+
+.addnewteam {
+	padding: 40px;
+	input {
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 20px;
+	}
+}
